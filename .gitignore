@@ -25,3 +25,6 @@ override.tf.json
 # Terraform CLI configuration
 .terraformrc
 terraform.rc
+
+# Terraform backend configuration
+backend.hcl

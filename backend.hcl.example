@@ -1,0 +1,3 @@
+bucket = "YOUR-TERRAFORM-STATE-BUCKET"
+key    = "YOUR-PROJECT/terraform.tfstate"
+region = "YOUR-TERRAFORM-STATE-REGION"
