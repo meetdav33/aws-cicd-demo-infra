@@ -32,3 +32,13 @@ variable "github_subject" {
   description = "GitHub Actions OIDC subject allowed to assume the AWS role"
   type        = string
 }
+
+variable "alb_subnet_1_id" {
+  description = "First subnet ID for the Application Load Balancer"
+  type        = string
+}
+
+variable "alb_subnet_2_id" {
+  description = "Second subnet ID for the Application Load Balancer"
+  type        = string
+}

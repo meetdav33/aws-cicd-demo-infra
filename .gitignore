@@ -28,3 +28,7 @@ terraform.rc
 
 # Terraform backend configuration
 backend.hcl
+
+# OS files
+.DS_Store
+Thumbs.db
