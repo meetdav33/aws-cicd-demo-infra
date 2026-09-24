@@ -32,3 +32,6 @@ backend.hcl
 # OS files
 .DS_Store
 Thumbs.db
+
+#App Files and Directory
+generated-repository-files/

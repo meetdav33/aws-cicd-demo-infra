@@ -7,6 +7,9 @@ vpc_id                 = "vpc-XXXXXXXX"
 # A new private S3 deployment bucket will be created with this name.
 deployment_bucket_name = "your-deployment-bucket-name"
 
+# Go to your Application's GitHub repository's Settings > Actions > OIDC, and look inside the "Default subject claim prefix" box.
+# You can copy your exact OIDC subject string directly from that field to use in your cloud provider's trust policy.
+# Only replace repo:YOUR_ORG/YOUR_REPO with your subject claim prefix. Keep :ref:refs/heads/main part as it is.
 github_subject         = "repo:YOUR_ORG/YOUR_REPO:ref:refs/heads/main"
 
 alb_subnet_1_id        = "subnet-1XXXXXXX"
